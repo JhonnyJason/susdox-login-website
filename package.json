@@ -2,11 +2,6 @@
     "name": "susdox-login-website",
     "version": "0.0.1",
     "description": "This is the description :-)",
-    "sideEffects": [
-        "toolset/build/js/indexdomconnect.js",
-        "toolset/build/js/supportdomconnect.js",
-        "toolset/build/js/allmodules.js"
-    ],
     "scripts": {
         "build-coffee": "coffee -o toolset/build/js/ -c sources/source/*/*.coffee",
         "watch-coffee": "coffee -o toolset/build/js/ -cw sources/source/*/*.coffee",
